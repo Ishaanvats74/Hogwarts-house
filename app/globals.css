@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+.background{
+    background-image: url("/hogwarts_legacy___ever_edition_4k_wallpaper_by_aksensei_dg29l08-pre.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
