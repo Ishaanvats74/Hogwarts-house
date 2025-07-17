@@ -12,9 +12,6 @@ type house = {
   Description: string,
 };
 
-
-
-
 const house: house[]= [
   {Name:"Gryffindor",link:"/gryffindor-removebg-preview.png",Traits: "Bravery, courage, determination, chivalry, daring",Description:"Gryffindor is the house of the bold and the brave. Founded by Godric Gryffindor, this house values courage, nerve, and daring. Its members are known to stand up for what is right—even in the face of danger. Gryffindors often act on instinct and are natural-born leaders with strong moral compasses."},
   {Name:"Ravenclaw",link:"/ravenclaw-removebg-preview.png",Traits: "Intelligence, creativity, learning, wisdom, wit",Description:"Ravenclaw celebrates those with a thirst for knowledge and a sharp mind. Founded by Rowena Ravenclaw, this house values wisdom, learning, and individuality. Ravenclaws are imaginative thinkers, problem solvers, and curious minds always seeking to expand their understanding of the magical world."},
