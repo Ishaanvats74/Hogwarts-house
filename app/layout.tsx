@@ -3,7 +3,6 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
 
 
-
 export const metadata: Metadata = {
   title: "HogWards House",
   description: "Created By Ishaan vats",
@@ -14,11 +13,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
+
   return (
     <html lang="en">
       <body>
-        {children}
-        <Analytics/>
+
+        <div className="relative h-screen w-full bg-center bg-cover bg-no-repeat text-white" style={{ backgroundImage: "url(/back.jpg)" }}>
+          {children}
+          <Analytics/>
+        </div>
       </body>
     </html>
   );
